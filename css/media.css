@@ -1,0 +1,195 @@
+
+
+/* mobile device */
+
+@media (min-width: 320px) and (max-width: 500px){
+/*    
+   /* header section start */
+
+        h1 {
+            color: #fff;
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+            /* hero section start */
+            .hero-content {
+                text-align: center;
+                padding: 50px 0;
+            }
+
+            .hero-content p br{
+                display: none;
+            }
+            /* hero section end */
+
+   /* header section end */ 
+
+   /* about-one section start */
+
+        .mac {
+            position: inherit;
+            top: 40px;
+        }
+
+        .a-one-text{
+            text-align: center;
+        }
+        .a-one-text h2 {
+            font-size: 25px;
+            font-style: italic;
+        }
+        
+
+
+   /* about-one section end */
+
+   /* service section start */
+
+   .service-item {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .service-title h2 {
+        font-size: 30px;
+        font-weight: 400;
+        letter-spacing: 2px;
+    }
+
+   /* service section end */
+        /* caroseul section start */
+
+        img.d-block.w-100.slider-img{
+            height: 50vh !important;
+        }
+
+
+        .carousel-caption {
+            position: absolute;
+            right: 15%;
+            top: -11%;
+            height: 100vh;
+            bottom: 20px;
+            left: 15%;
+            z-index: 10;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            color: #fff;
+            text-align: center;
+        }
+        /* caroseul section end */
+
+        /* price section start */
+
+        .card {
+            transition: 1s;
+            margin-bottom: 30px;
+        }
+        /* price section end */
+
+        /* additional section start */
+
+        .add-content {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .c-c {
+            margin-bottom: 30px;
+        }
+
+        .add-img {
+            margin-bottom: 30px;
+        }
+        /* additional section end */
+
+        /* join section start */
+        .join h2 {
+            font-style: normal;
+            font-size: 10px;
+            text-align: center;
+            font-weight: 300;
+            color: #d9d3d3;
+             margin-bottom: 30px;
+         }       
+        /* join section end */
+
+        /* update section start */
+        .te {
+            text-align: center;
+            margin-top: 0;
+        }
+
+
+
+        /* update section end */
+
+       /* templete section start */
+
+       .templete-content h2 {
+        color: #fff;
+        font-size: 22px;
+    }
+
+       /* templete section end */
+
+       /* about two section start */
+
+       .a-two-text {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .a-two-text h2{
+        font-size: 20px;
+    }
+    .a-two-text h2 br{
+        display: none;
+    }
+
+    span.role.a-role {
+        margin: 40px auto;
+    }
+
+       /* about two section end */
+
+       /* footer section start */
+
+        .foter-content{
+            text-align: center;
+        }
+
+        .ft{
+            text-align: center;
+        }
+
+       /* footer section end */
+
+}
+
+
+
+/* small device */
+
+@media (min-width: 500.01px) and (max-width: 768px){
+
+}
+
+/* medium device */
+
+@media (min-width: 768.01px) and (max-width: 992px){
+
+}
+
+
+/* desktop device */
+
+@media (min-width: 992.01px) and (max-width: 1200px){
+
+}
+
+/* large device */
+
+@media (min-width: 1200.01px) {
+
+}

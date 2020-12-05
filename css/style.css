@@ -1,0 +1,503 @@
+
+/* 
+Author: MD HUMAUN KOBIR;
+Mailing address: koirmdhumaun2000@gmail.com
+Website: hoynihobe.com
+*/
+
+/* 
+    ====INDEX====
+
+    1: home ;
+    2: about ; 
+    3: contact;
+    4: service;
+    5: Blandit rhoncus;
+    6: Placerat;
+    8: footer;
+                 
+*/
+
+
+
+/* global css */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+
+h1{
+    color: #fff;
+    font-size: 46px;
+    font-weight: 700;
+
+
+}
+h2{
+    font-size: 38px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+h4{
+
+}
+
+h5{
+
+}
+h6{
+
+}
+p{
+    color: #b0b0b0;
+    font-size: 17px;
+}
+
+.custom-btn{
+    background: #ed145b;
+    color: #fff;
+    padding: 5px 20px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.title{
+    text-align: center;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+/* theme css */
+
+/* header section start */
+
+    header{
+        background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(..//img/p.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        overflow: hidden;
+       
+
+    }
+
+    #mainNav.scrolled{
+        background: #5a5a5a;
+    }
+
+    .nav-item{
+        margin: 0 10px;
+    }
+
+    .nav-link{
+        color: #fff;
+    }
+    .nav-link:hover{
+        color: #ed145b;
+    }
+    a.nav-link.js-scroll-trigger.active {
+        color: #ed145b;
+    }
+/* 
+   .active{
+       color: #ed145b !important;
+   } */
+
+    i.fa.fa-bars {
+        color: #fff;
+        font-weight: 700;
+        font-size: 25px;
+    }
+    /* hero section start */
+    .hero{
+        margin-top: 50px;
+    }
+    .hero-content {
+        text-align: center;
+        padding: 200px 0;
+    }
+    span.h-t {
+        color: #c3c3c3;
+    }
+
+    .role {
+        display: block;
+        background: #ed145b;
+        height: 3px;
+        width: 200px;
+        margin: 40px auto;
+    }
+    
+    .hero-btn{
+        background: #ed145b;
+        color: #fff;
+        padding:20px 50px;
+        text-align: center;
+        margin-top: 30px;
+        border-radius: 50px;
+    }
+    /* hero section end */
+/* header section end */
+
+/* about-one section start */
+
+
+.about-one{
+    background: #f4f4f4;
+    position: relative;
+}
+
+.a-one-text {
+    margin: 50px 0;
+}
+.a-one-text h2 {
+    font-size: 38px;
+    font-style: italic;
+}
+span.role.a-role {
+    margin: 40px 0;
+}
+
+.a-one-text p{
+    color: #666666;
+}
+
+.a-one-text a {
+    color: #ed145b;
+    text-decoration: none;
+}
+
+.a-one-text a:hover{
+    color: #000;
+    text-decoration: none;
+}
+
+/* i.fa.fa-play-circle-o {
+    color: #ed145b;
+}
+
+i.fa.fa-play-circle-o:hover {
+    color: #000;
+    cursor: pointer;
+} */
+.mac {
+    position: absolute;
+    top: 25%;
+
+}
+/* about-one section end */
+
+/* services section start */
+
+.services {
+    padding: 100px 0;
+}
+
+.title {
+    text-align: center;
+    padding: 50px 0;
+}
+.service-item{
+    text-align: center;
+    
+}
+
+.service-item h3 {
+    font-size: 15px;
+    margin: 30px 0;
+    color: #ed145b;
+}
+/* services section end */
+
+
+
+/* curosel section start */
+
+/* .curosel{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(..//img/curosel-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat
+} */
+
+.carousel-item{
+    background: no-repeat center center scroll;
+    background-size: cover;
+}
+
+img.d-block.w-100.img-fluid {
+    height: 100% !important;
+}
+.carousel-caption.d-md-block {
+    top: 20%;
+}
+i.fa.fa-quote-left {
+    font-size: 38px;
+    color: #ed145b;
+}
+
+i.fa.fa-quote-right {
+    font-size: 38px;
+    color: #ed145b;
+}
+
+.carousel-caption p {
+    color: #b0b0b0;
+    font-size: 17px;
+    margin: 30px 0;
+}
+
+
+
+/* curosel section end */
+
+/* price section start */
+
+    .price {
+        background: #f4f4f4;
+        padding: 100px 0;
+    }
+
+    .card{
+       transition: 1s;
+    }
+    .card-top {
+        text-align: center;
+        background: #5a5a5a;
+        padding: 30px 0;
+        position: relative;
+    }
+
+    .card-top h4 {
+        color: #fff;
+        font-size: 10px;
+    }
+
+    .card-top h4 span {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    a.btn.custom-btn.card-btn-1 {
+        background: #f4f4f4;
+        color: #000;
+        font-weight: bold;
+    }
+   .card-btn-2 {
+        margin: 15px 0;
+        color: #b0b0b0;
+        padding: 10px 40px;
+    }
+    .card:hover .card-top{
+        background: #ed145b;
+        cursor: pointer;
+    
+    }
+
+
+/* price section end */
+
+/* additional section start */
+
+.additional {
+    width: 100%;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.add-content {
+    margin-bottom: 30px;
+}
+.ad-text h3 {
+    font-size: 1.75rem;
+    color: #ed145b;
+}
+
+.ad-text p {
+    color: #5a5a5a;
+    font-size: 17px;
+}
+
+
+/* additional section end */
+
+/* join section start */
+
+.join {
+    background: #ed145b;
+    width: 100%;
+    overflow: hidden;
+    padding: 100px 0; 
+}
+
+.join-btn {
+    background: #fff;
+    color: #ed145b;
+    padding: 10px 51px;
+    margin: 0 auto;
+    display: block;
+}
+
+.join h2 {
+    font-style: normal;
+    font-size: 32px;
+    font-weight: 300;
+    color: #d9d3d3;
+    text-transform: uppercase;
+}
+
+.role-t {
+    font-weight: 600;
+    color: #fff;
+}
+/* join secton end */
+
+/* update section start */
+section.update {
+    width: 100%;
+    overflow: hidden;
+    padding: 50px 0;
+}
+
+.update-title h2 {
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.card-body {
+    background: #f5f5f5;
+}
+
+.update-c{
+    position: relative;
+    
+}
+
+.c-img-content {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background: #ce225ad1;
+    transition: all 1s;
+    
+}
+.c-img-content a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+   
+}
+
+.fa.fa-search  {
+    font-size: 30px;
+    color: #fff;
+}
+.update-c:hover .c-img-content{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.fa.fa-search:hover{
+    color: #00ffff;
+}
+
+.te {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.te a {
+    display: block;
+    color: #ed145b;
+    text-transform: uppercase;
+}
+
+.te a:hover{
+    color: #000;
+    text-decoration: none;
+}
+
+
+i.fa.fa-angle-down {
+    font-size: 25px;
+    color: #ed145b;
+    cursor: pointer;
+}
+
+
+/* update section end */
+
+/* templete section start */
+
+    .tempele{
+        background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(..//img/template.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        padding: 100px 0;
+        overflow: hidden;
+    }
+
+    .templete-content{
+        text-align: center;
+    }
+    .templete-content h2 {
+        color: #fff;
+        font-style: normal;
+    }
+    .templete-content p {
+        color: #b0b0b0;
+        font-size: 17px;
+        margin-bottom: 50px;
+    }
+    
+
+    
+/* templerte section end */
+
+/*  about two section start */
+    .about-two{
+        width: 100%;
+        overflow: hidden;
+        padding: 100px 0;
+        background: #f4f4f4;
+    }
+
+    .a-two-text h2 {
+        font-size: 29px;
+        font-weight: 400;
+        font-style: italic;
+        letter-spacing: 2px;
+    }
+/* about two section end */
+
+/* footer section start */
+footer {
+    padding: 50px 0;
+    background: #000 !important;
+    width: 100%;
+    overflow: hidden;
+}
+.ft{
+    text-align: right;
+}
+ .f-t {
+    color: #ed145b;
+}
+/* footer section end */
